@@ -6,7 +6,7 @@ containers:
   shell: /bin/bash -l
   memory: 1024
 - name: wso2am
-  image: wso2/wso2am
+  image: maddingo/wso2am-instruqt:latest
   entrypoint: /home/wso2carbon/instruqt-entrypoint.sh
   shell: /bin/bash -l
   ports:
