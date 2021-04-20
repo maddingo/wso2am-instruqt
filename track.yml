@@ -1,0 +1,41 @@
+slug: api-management-publish-to-wso2-api-manager
+id: hb6aoytjnvec
+type: track
+title: 'API Management: Publish do WSO2 API Manager'
+teaser: Helps you publish APIs from your project to the WSO2 API Manager with Maven
+description: This track shows you the steps needed to publish an API to the WSO2 API
+  Manager
+icon: ""
+tags:
+- ""
+owner: altibox
+developers:
+- martin.goldhahn@altibox.no
+private: true
+published: true
+maintenance: true
+challenges:
+- slug: start-wso2
+  id: pklenggypnkv
+  type: challenge
+  title: Start WSO2
+  teaser: Start WSO2
+  assignment: Start WSO2
+  notes:
+  - type: text
+    contents: start
+  tabs:
+  - title: Maven Shell
+    type: terminal
+    hostname: maven
+  - title: WSO2 API Manager
+    type: service
+    hostname: wso2am
+    path: /publisher/
+    port: 9443
+  - title: WSO2 APIM Shell
+    type: terminal
+    hostname: wso2am
+  difficulty: basic
+  timelimit: 500
+checksum: "1412624472077807680"

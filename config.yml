@@ -1,0 +1,16 @@
+version: "2"
+containers:
+- name: maven
+  image: maven:3.8.1-openjdk-16
+  entrypoint: /bin/bash
+  shell: /bin/bash -l
+  memory: 1024
+- name: wso2am
+  image: wso2/wso2am
+  entrypoint: /home/wso2carbon/instruqt-entrypoint.sh
+  shell: /bin/bash -l
+  ports:
+  - 8243
+  - 8280
+  - 9443
+  memory: 2048
